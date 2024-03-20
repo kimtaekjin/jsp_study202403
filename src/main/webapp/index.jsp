@@ -8,5 +8,36 @@
 </head>
 <body>
     <h1>Welcome! 꾸꾸까까야</h1>
+    <form action="">
+          <input type="text" name="nick" placeholder="별명을 입력하세요."> <br>
+          <input type="text" name="age" placeholder="나이를 입력하세요."> <br>
+          <input type="submit" value="제출!">
+
+                  w.write("<!DOCTYPE html>\n");
+                  w.write("<html>\n");
+                  w.write("<head>\n");
+                  w.write("</head>\n");
+
+                  w.write("<body>\n");
+                  w.write("<h1>\n");
+                  w.write(String.format("%s님은 %d년생입니다.\n", keyword, birthYear));
+                  w.write("</h1>\n");
+                  w.write("</body>\n");
+
+                  w.write("</html>\n");
+        </form>
+        <br>
+
+        <div>
+         <a href="/chap02/dancer/register">서블릿 댄서 등록 폼</a>
+        </div>
+
+
+        <div>
+         <a href="register.jsp">jsp 댄서 등록 폼</a>
+        </div>
+
+
+
 </body>
 </html>
